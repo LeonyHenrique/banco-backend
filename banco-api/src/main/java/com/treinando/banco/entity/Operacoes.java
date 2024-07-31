@@ -1,5 +1,8 @@
 package com.treinando.banco.entity;
 
+import jakarta.persistence.Entity;
+
+@Entity
 public class Operacoes {
     Double saldo;
     String conta;

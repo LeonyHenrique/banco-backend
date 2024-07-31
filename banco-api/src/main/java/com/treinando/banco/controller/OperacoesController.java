@@ -11,7 +11,7 @@ import com.treinando.banco.entity.Operacoes;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin (origins = "http://localhost:5174")
+@CrossOrigin (origins = "http://localhost:5173")
 public class OperacoesController {
 	public Operacoes operacoes = new Operacoes("");
 	
