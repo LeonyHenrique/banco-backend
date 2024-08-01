@@ -7,6 +7,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Conta {
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
@@ -17,7 +18,7 @@ public class Conta {
 	private String email;
 	private String senha;
 	private String tipoConta;
-	private Double saldo = 0.0;
+	private Double saldo=0.0;
 	
 	public Conta() {
 		// TODO Auto-generated constructor stub

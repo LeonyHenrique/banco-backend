@@ -2,6 +2,7 @@ package com.treinando.banco.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,7 +14,7 @@ import com.treinando.banco.entity.Conta;
 import com.treinando.banco.repository.ContaRepository;
 
 @RestController
-@RequestMapping("/api/conta")
+@RequestMapping("/api")
 public class ContaController {
 	
 	@Autowired
